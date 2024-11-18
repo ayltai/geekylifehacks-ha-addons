@@ -1,0 +1,16 @@
+name: SecureZone
+version: "1.0.0"
+slug: securezone
+description: >-
+  "SecureZone is a powerful security tool that monitors live security camera video streams for unauthorised intrusions. By defining virtual lines within specific areas, it can instantly detect and alert users when objects cross these boundaries. Designed for efficient operations on low-end NAS devices and old computers, SecureZone offers a reliable and cost-effective solution to safeguard your premises."
+arch:
+  - amd64
+  - aarch64
+url: "https://geekylifehacks.com/#/products/securezone"
+webui: "http://[HOST]:8002/web"
+timeout: 30
+image: "ayltai/geekylifehacks:securezone-1.0.0"
+host_network: True
+map:
+  - type: data
+    read_only: False
